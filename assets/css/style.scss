@@ -60,6 +60,7 @@ $lightGray:#9FA2A7;
     justify-content: space-around;
     margin-bottom: 2rem;
     width:100vw;
+    padding: 0.5rem;
 
     nav a{
         text-decoration: none;
@@ -70,16 +71,25 @@ $lightGray:#9FA2A7;
     .logo{
         padding-right:3rem ;
         width: 15rem;
+        font-size: 1rem;
     }
 
-    a{
+    .getStartedButton{
         text-decoration: none;
         color: #27282A;
+        border: 1px solid #27282A;
+        color: #27282A;
+        padding: 0.25rem;
+    }
+    .getStartedButton:hover{
+        color: white;
+        background-color: #27282A;
     }
 }    
 
 .heroHeadline{
     text-align: center;
+    font-size: 0.9rem;
 }
 
 .heroSectionImg{
@@ -103,6 +113,7 @@ $lightGray:#9FA2A7;
         margin-bottom: 1.5rem;
         width: 100%;
         font-size: 0.9rem;
+        padding-left: 0.5rem;
     }
 
         .priceContainer{
@@ -112,12 +123,12 @@ $lightGray:#9FA2A7;
                 text-align: center;
                 margin-bottom: 0.5rem;
                 font-size: 1.5rem;
-        
             }
             .priceDescription{
                 text-align: center;
                 width: 5rem;
                 margin:auto;
+                color: $anthrazit;
             }
         }
 
@@ -147,6 +158,7 @@ $lightGray:#9FA2A7;
 
         .deliverablesText{
             margin-bottom: 0.5rem;
+            color: $anthrazit;
         }
 
 }
@@ -164,13 +176,18 @@ $lightGray:#9FA2A7;
             padding-left: 1.125rem;
 
             .howItWorksTextTitle{
-                font-size: 1.2rem;
+                font-size: 1.5rem;
                 margin-bottom: 1rem;
             }
 
             ol{
                 padding-left: 1rem;
                 margin-bottom: 1rem;
+                color: $gray;
+            }
+
+            p{
+                color: $gray;
             }
         }
 
@@ -201,6 +218,7 @@ $lightGray:#9FA2A7;
     border-bottom: 1px solid black;
     margin-bottom: 3rem;
     padding-bottom: 3rem;
+    color: #bcbec2;
 
 
         p{
@@ -211,4 +229,32 @@ $lightGray:#9FA2A7;
             width: 50%;
             padding-top: 3.75rem;
         }
+}
+
+footer{
+
+    h3{
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 2.5rem;
+    }
+
+    .footerContainer{
+        display: flex;
+        padding: 0.5rem;
+        justify-content: center;
+        align-items: flex-end;
+
+            img{
+                width: 15%;
+            }
+
+            p{
+                color: #848689;
+                a{
+                    color: black;
+                    text-decoration: none;
+                }
+            }
+    }
 }
