@@ -39,23 +39,82 @@
 
 /* ====== colors ====== */
 /* ====== media queries ====== */
+@media only screen and (min-width: 700px) {
+  /*     .logo{
+          font-size: 2rem;
+          width: 17rem;
+      } */
+  /*     .heroText{
+          max-width: 60%;
+          font-size: 1.5rem;
+      } */
+  .heroTextContainer {
+    flex-wrap: nowrap;
+  }
+  .priceContainer {
+    max-width: 50rem;
+  }
+  .priceDescription {
+    min-width: 9rem;
+  }
+  .deliverablesArticle {
+    max-width: 50%;
+  }
+  .deliverablesContainer {
+    flex-wrap: nowrap;
+    margin-top: 3rem;
+    width: 90%;
+  }
+  .howItWorksSection {
+    flex-wrap: nowrap;
+    margin: 50rem;
+  }
+  .howItWorksSection img {
+    max-width: 400px;
+  }
+  .howItWorksSection .howItWorksTextContainer {
+    max-width: 50%;
+  }
+  .critiqueSectionArticleTitle p {
+    max-width: 32%;
+    margin: auto;
+  }
+  .critiqueImgSection {
+    padding: 2rem;
+  }
+  .critiqueImgSection p {
+    margin-top: 15rem;
+    font-size: 1.5rem;
+  }
+  .critiqueImgSection img {
+    margin-top: 12rem;
+    width: 70%;
+  }
+}
 /* ===== navbar ===== */
 .navBarContainer {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   margin-bottom: 2rem;
-  width: 100vw;
+  width: 100%;
   padding: 0.5rem;
+}
+.navBarContainer nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 15rem;
 }
 .navBarContainer nav a {
   text-decoration: none;
   font-family: "graphik";
   color: #27282A;
+  margin-right: 1rem;
+  font-size: clamp(0.8rem, 2vw, 1rem);
 }
 .navBarContainer .logo {
-  padding-right: 3rem;
-  width: 15rem;
-  font-size: 1rem;
+  padding-right: 9rem;
+  font-size: clamp(1rem, 3vw, 2rem);
 }
 .navBarContainer .getStartedButton {
   text-decoration: none;
@@ -71,7 +130,7 @@
 
 .heroHeadline {
   text-align: center;
-  font-size: 0.9rem;
+  font-size: clamp(0.9rem, 2vw, 1.3rem);
 }
 
 .heroSectionImg {
@@ -81,6 +140,7 @@
   background-size: contain;
   width: 100%;
   height: 50vw;
+  margin-bottom: 3rem;
 }
 
 .heroTextContainer {
@@ -92,9 +152,9 @@
   align-items: baseline;
 }
 .heroTextContainer .heroText {
-  margin-bottom: 1.5rem;
-  width: 100%;
-  font-size: 0.9rem;
+  margin-bottom: 5rem;
+  width: 70%;
+  font-size: clamp(0.8rem, 2vw, 1.5rem);
   padding-left: 0.5rem;
 }
 .heroTextContainer .priceContainer {
@@ -103,13 +163,19 @@
 .heroTextContainer .priceContainer .heroTextPrice {
   text-align: center;
   margin-bottom: 0.5rem;
-  font-size: 1.5rem;
+  font-size: clamp(1.5rem, 2vw, 2rem);
 }
 .heroTextContainer .priceContainer .priceDescription {
   text-align: center;
-  width: 5rem;
+  width: 8rem;
   margin: auto;
   color: #848689;
+}
+
+.deliverablesSection {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 3rem;
 }
 
 .deliverablesContainer {
@@ -134,6 +200,7 @@
 .deliverablesContainer .deliverablesText {
   margin-bottom: 0.5rem;
   color: #848689;
+  font-size: clamp(1rem, 3vw, 1.3rem);
 }
 
 .howItWorksSection {
@@ -147,6 +214,7 @@
 }
 .howItWorksSection .howItWorksTextContainer {
   padding-left: 1.125rem;
+  padding-top: 1rem;
 }
 .howItWorksSection .howItWorksTextContainer .howItWorksTextTitle {
   font-size: 1.5rem;
@@ -157,11 +225,15 @@
   margin-bottom: 1rem;
   color: #3D3E41;
 }
+.howItWorksSection .howItWorksTextContainer ol li {
+  font-size: clamp(1rem, 3vw, 1.3rem);
+}
 .howItWorksSection .howItWorksTextContainer p {
   color: #3D3E41;
+  font-size: clamp(1rem, 3vw, 1.3rem);
 }
 .howItWorksSection img {
-  width: 60%;
+  max-width: 40%;
 }
 
 .critiqueSectionArticleTitle h3 {
@@ -173,6 +245,7 @@
   text-align: center;
   margin-bottom: 5rem;
   color: #bcbec2;
+  font-size: clamp(1rem, 2vw, 1.3rem);
 }
 
 .critiqueImgSection {
@@ -207,10 +280,11 @@ footer .footerContainer {
   align-items: flex-end;
 }
 footer .footerContainer img {
-  width: 15%;
+  width: 10%;
 }
 footer .footerContainer p {
   color: #848689;
+  font-size: clamp(1rem, 2vw, 1.3rem);
 }
 footer .footerContainer p a {
   color: black;
