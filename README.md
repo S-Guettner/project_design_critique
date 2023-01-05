@@ -1,1 +1,1 @@
-# In diesem branch sind die Javascript funktionen
+# In diesem branch sind die Javascript funktionen :)
