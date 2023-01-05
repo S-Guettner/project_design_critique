@@ -128,6 +128,7 @@ $lightGray:#9FA2A7;
     flex-wrap: wrap;
     justify-content: center;
     padding: 0.3rem;
+    margin-bottom: 1rem;
 
         img{
             width:50%;
@@ -137,6 +138,7 @@ $lightGray:#9FA2A7;
         .deliverablesTitle{
             text-align: center;
             margin-bottom: 1.5rem;
+            font-size: 1.75rem;
         }
 
         .deliverablesTextTitle{
@@ -153,10 +155,27 @@ $lightGray:#9FA2A7;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    background-color:#f1f1f4;
+    padding-top: 1rem;
+    margin: 0.7rem;
+
+        .howItWorksTextContainer{
+            padding-left: 1.125rem;
+
+            .howItWorksTextTitle{
+                font-size: 1.75rem;
+                margin-bottom: 1rem;
+            }
+
+            ol{
+                padding-left: 1rem;
+                margin-bottom: 1rem;
+            }
+        }
 
 
         img{
-            width: 50%;
+            width: 60%;
         }
 }
 
