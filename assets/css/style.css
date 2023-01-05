@@ -77,19 +77,55 @@
   width: 95vw;
   margin: auto;
   display: flex;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   justify-content: center;
+  align-items: baseline;
 }
 .heroTextContainer .heroText {
   margin-bottom: 1.5rem;
   width: 100%;
+  font-size: 0.9rem;
+}
+.heroTextContainer .priceContainer {
+  margin-bottom: 1rem;
 }
 .heroTextContainer .priceContainer .heroTextPrice {
   text-align: center;
   margin-bottom: 0.5rem;
+  font-size: 1.5rem;
 }
 .heroTextContainer .priceContainer .priceDescription {
   text-align: center;
   width: 5rem;
   margin: auto;
+}
+
+.deliverablesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0.3rem;
+}
+.deliverablesContainer img {
+  width: 50%;
+  margin-bottom: 2rem;
+}
+.deliverablesContainer .deliverablesTitle {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.deliverablesContainer .deliverablesTextTitle {
+  margin-bottom: 0.5rem;
+}
+.deliverablesContainer .deliverablesText {
+  margin-bottom: 0.5rem;
+}
+
+.howItWorksSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.howItWorksSection img {
+  width: 50%;
 }/*# sourceMappingURL=style.css.map */
