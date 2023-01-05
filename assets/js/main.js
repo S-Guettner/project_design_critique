@@ -1,9 +1,9 @@
-let count = 0;
-let button = document.getElementById("button");
+let countButton = 0;
+let button = document.getElementById("buttonS");
 let counter = () =>{
-    count ++ ;
-    console.log(count);
-    if(count % 2 !== 0){
+    countButton ++ ;
+    console.log(countButton);
+    if(countButton % 2 !== 0){
         button.style.backgroundColor="black";
         button.style.color="white";
     }
@@ -15,4 +15,18 @@ let counter = () =>{
 
 
 
+/* ========== hamburger menu ========== */
 
+let countMenu = 0;
+let menu = document.getElementById("hamburgerMenu");
+
+let menucounter = () =>{
+    countMenu ++;
+    console.log(countMenu);
+    if(countMenu % 2 !== 0){
+        menu.style.display="block";
+    }
+    else{
+        menu.style.display="none";
+    }
+}

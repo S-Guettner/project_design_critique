@@ -11,6 +11,9 @@
     <header>
         <div class="testContainer">
             <section class="navBarContainer">
+                <section class="hamburgerMenuContainer">
+                    <a onclick="menucounter()" href="#"><img src="./assets/img/menu-icon.svg" alt=""></a>
+                </section>
                 <nav>
                     <a href="#">Home</a>
                     <a href="#">About</a>
@@ -18,15 +21,24 @@
                     <a href="#">#Hacks</a>
                 </nav>
                 <p class="logo fontTiempos">Design Critique</p>
-                <button onclick="counter()" id="button" class="getStartedButton fontGraphikM" >Get started</button>
+                <button onclick="counter()" id="buttonL" class="getStartedButtonL fontGraphikM" >Get started</button>
             </section>
         </div>
-
+        <section id="hamburgerMenu" class="hamburgerNavContainer">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">#Hacks</a>
+        </section>
         <section class="heroSectionContainer">
             <h4 class="heroHeadline fontGraphik">
                 Get your design critiqued by world-class designers
             </h4>
             <article class="heroSectionImg"></article>
+            <div class="testDiv">
+                <a onclick="counter()" id="buttonS" class="buttonS fontGraphikM" href="#">Get started</a>
+            </div>
+
             <article class="heroTextContainer">
                 <p class="heroText fontGraphikM">We will review your designs (website or mobile/web app) and explore where the design works well and where it can be improved. We focus our process around one central question: “What can we do to make this design more efficient?</p>
                 <div class="priceContainer">
