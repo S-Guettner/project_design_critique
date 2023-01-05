@@ -114,7 +114,7 @@
 .deliverablesContainer .deliverablesTitle {
   text-align: center;
   margin-bottom: 1.5rem;
-  font-size: 1.75rem;
+  font-size: 2rem;
 }
 .deliverablesContainer .deliverablesTextTitle {
   margin-bottom: 0.5rem;
@@ -130,12 +130,13 @@
   background-color: #f1f1f4;
   padding-top: 1rem;
   margin: 0.7rem;
+  margin-bottom: 3rem;
 }
 .howItWorksSection .howItWorksTextContainer {
   padding-left: 1.125rem;
 }
 .howItWorksSection .howItWorksTextContainer .howItWorksTextTitle {
-  font-size: 1.75rem;
+  font-size: 1.2rem;
   margin-bottom: 1rem;
 }
 .howItWorksSection .howItWorksTextContainer ol {
@@ -144,4 +145,34 @@
 }
 .howItWorksSection img {
   width: 60%;
+}
+
+.critiqueSectionArticleTitle h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+.critiqueSectionArticleTitle p {
+  text-align: center;
+  margin-bottom: 5rem;
+  color: #bcbec2;
+}
+
+.critiqueImgSection {
+  background: url(../img/28.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  padding: 0.5rem;
+  border-bottom: 1px solid black;
+  margin-bottom: 3rem;
+  padding-bottom: 3rem;
+}
+.critiqueImgSection p {
+  padding-top: 4rem;
+  width: 50%;
+}
+.critiqueImgSection img {
+  width: 50%;
+  padding-top: 3.75rem;
 }/*# sourceMappingURL=style.css.map */
