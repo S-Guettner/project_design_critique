@@ -40,6 +40,12 @@
 /* ====== colors ====== */
 /* ====== media queries ====== */
 @media only screen and (min-width: 700px) {
+  .hamburgerMenuContainer {
+    display: none;
+  }
+  .navBarContainer {
+    max-width: 58%;
+  }
   .heroTextContainer {
     flex-wrap: nowrap;
   }
@@ -84,21 +90,24 @@
   }
 }
 @media only screen and (max-width: 700px) {
-  nav {
+  .navBig {
+    display: none;
+  }
+  .navBig a {
     display: none;
   }
 }
 /* ===== navbar ===== */
 .navBarContainer {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   margin-bottom: 2rem;
-  width: 75%;
+  width: 63%;
   padding: 0.5rem;
 }
 .navBarContainer nav {
-  display: none;
+  display: flex;
   justify-content: space-between;
   max-width: 15rem;
 }
@@ -110,7 +119,6 @@
   font-size: clamp(0.8rem, 2vw, 1rem);
 }
 .navBarContainer .logo {
-  padding-right: 3.5vw;
   font-size: clamp(1rem, 3vw, 2rem);
 }
 .navBarContainer .getStartedButtonL {
