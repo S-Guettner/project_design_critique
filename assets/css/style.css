@@ -153,7 +153,7 @@
 }
 .heroTextContainer .heroText {
   margin-bottom: 5rem;
-  width: 70%;
+  width: 60%;
   font-size: clamp(0.8rem, 2vw, 1.5rem);
   padding-left: 0.5rem;
 }
@@ -167,7 +167,7 @@
 }
 .heroTextContainer .priceContainer .priceDescription {
   text-align: center;
-  width: 8rem;
+  width: 10rem;
   margin: auto;
   color: #848689;
 }
@@ -196,6 +196,7 @@
 }
 .deliverablesContainer .deliverablesTextTitle {
   margin-bottom: 0.5rem;
+  font-size: clamp(1rem, 3vw, 1.3rem);
 }
 .deliverablesContainer .deliverablesText {
   margin-bottom: 0.5rem;
