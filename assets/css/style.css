@@ -5,24 +5,40 @@
 }
 
 /* ====== fonts ====== */
-/* @font-face {
-    font-family:"graphikM";
-    src: url(../fonts/Graphik-Medium.ttf);
+@font-face {
+  font-family: "graphikM";
+  src: url(../fonts/Graphik-Medium.ttf);
 }
 @font-face {
-    font-family: ;
-    src: url(../fonts/);
+  font-family: "graphik";
+  src: url(../fonts/Graphik-Regular.woff);
 }
 @font-face {
-    font-family: ;
-    src: url();
+  font-family: "theinhardt";
+  src: url(../fonts/Theinhardt-Lt.woff);
 }
 @font-face {
-    font-family: ;
-    src: url();
+  font-family: "tiempos";
+  src: url(../fonts/TiemposHeadline-Semibold.woff);
 }
- */
+.fontGraphikM {
+  font-family: "graphikM";
+}
+
+.fontGraphik {
+  font-family: "graphik";
+}
+
+.fontTheinhardt {
+  font-family: "theinhardt";
+}
+
+.fontTiempos {
+  font-family: "tiempos";
+}
+
 /* ====== colors ====== */
+/* ====== media queries ====== */
 /* ===== navbar ===== */
 .navBarContainer {
   display: flex;
@@ -30,9 +46,18 @@
   margin-bottom: 2rem;
   width: 100vw;
 }
+.navBarContainer nav a {
+  text-decoration: none;
+  font-family: "graphik";
+  color: #27282A;
+}
 .navBarContainer .logo {
   padding-right: 3rem;
   width: 15rem;
+}
+.navBarContainer a {
+  text-decoration: none;
+  color: #27282A;
 }
 
 .heroHeadline {
@@ -51,15 +76,19 @@
 .heroTextContainer {
   width: 95vw;
   margin: auto;
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
 }
 .heroTextContainer .heroText {
   margin-bottom: 1.5rem;
+  width: 100%;
 }
-.heroTextContainer .heroTextPrice {
+.heroTextContainer .priceContainer .heroTextPrice {
   text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
-.heroTextContainer .priceDescription {
+.heroTextContainer .priceContainer .priceDescription {
   text-align: center;
   width: 5rem;
   margin: auto;
