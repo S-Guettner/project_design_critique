@@ -49,12 +49,26 @@ $lightGray:#9FA2A7;
 /* ====== media queries ====== */
 
 @media only screen and (min-width: 700px) {
+    
+    .testDiv{
+        display: none;
+    }
+    .testDiv a{
+        display: none;
+    }
+
+
+
     .hamburgerMenuContainer{
         display: none;
     }
 
     .navBarContainer{
-        max-width: 58%;
+        max-width: 100%;
+    }
+
+    .heroText{
+        width: 50%;
     }
 
     .heroTextContainer{
@@ -113,6 +127,14 @@ $lightGray:#9FA2A7;
     .navBig a{
         display: none;
     }
+    .getStartedButtonL{
+        display: none;
+    }
+    .getStartedButtonL button{
+        display: none;
+    }
+
+
 
 } 
 
@@ -122,10 +144,10 @@ $lightGray:#9FA2A7;
 
 .navBarContainer{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items:center;
     margin-bottom: 2rem;
-    width:63%;
+    width:100vw;
     padding: 0.5rem;
 
     nav{
@@ -143,17 +165,22 @@ $lightGray:#9FA2A7;
 
     .logo{
         font-size: clamp(1rem,3vw,2rem);
+        width: 15rem;
     }
 
 
     .getStartedButtonL{
-        display: none;
+        display: block;
         text-decoration: none;
-        color: #27282A;
-        border: 1px solid #27282A;
-        color: #27282A;
         padding: 0.25rem;
     }
+
+    .getStartedButtonL button{
+        padding: 0.5rem;
+        background-color: white;
+        border: 1px solid $darkGray;
+    }
+
     .getStartedButton:hover{
         color: white;
         background-color: #27282A;
@@ -201,7 +228,7 @@ $lightGray:#9FA2A7;
 
     .heroText{
         margin-bottom: 5rem;
-        width: 60%;
+        width: 75%;
         font-size: clamp(0.8rem,2vw,1.5rem);
         padding-left: 0.5rem;
     }
