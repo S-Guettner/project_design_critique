@@ -108,6 +108,7 @@ $lightGray:#9FA2A7;
     }
     .critiqueImgSection{
         padding: 2rem;
+
         p{
             margin-top: 15rem;
             font-size: 1.5rem;
@@ -132,6 +133,9 @@ $lightGray:#9FA2A7;
     }
     .getStartedButtonL button{
         display: none;
+    }
+    .critiqueImgSection{
+        margin-bottom: 1rem;
     }
 
 
@@ -319,6 +323,7 @@ $lightGray:#9FA2A7;
     justify-content: center;
     background-color:#f1f1f4;
     padding-top: 1rem;
+    padding-bottom: 1rem;
     margin: 0.7rem;
     margin-bottom: 3rem;
 

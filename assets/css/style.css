@@ -111,6 +111,9 @@
   .getStartedButtonL button {
     display: none;
   }
+  .critiqueImgSection {
+    margin-bottom: 1rem;
+  }
 }
 /* ===== navbar ===== */
 .navBarContainer {
@@ -269,6 +272,7 @@
   justify-content: center;
   background-color: #f1f1f4;
   padding-top: 1rem;
+  padding-bottom: 1rem;
   margin: 0.7rem;
   margin-bottom: 3rem;
 }
