@@ -30,6 +30,10 @@
   margin-bottom: 2rem;
   width: 100vw;
 }
+.navBarContainer .logo {
+  padding-right: 3rem;
+  width: 15rem;
+}
 
 .heroHeadline {
   text-align: center;
@@ -44,7 +48,19 @@
   height: 50vw;
 }
 
-.logo {
-  padding-right: 3rem;
-  width: 15rem;
+.heroTextContainer {
+  width: 95vw;
+  margin: auto;
+}
+.heroTextContainer .heroText {
+  margin-bottom: 1.5rem;
+}
+.heroTextContainer .heroTextPrice {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.heroTextContainer .priceDescription {
+  text-align: center;
+  width: 5rem;
+  margin: auto;
 }/*# sourceMappingURL=style.css.map */

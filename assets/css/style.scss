@@ -43,7 +43,12 @@ $lightGray:#9FA2A7;
     justify-content: space-around;
     margin-bottom: 2rem;
     width:100vw;
-}
+
+    .logo{
+        padding-right:3rem ;
+        width: 15rem;
+    }
+}    
 
 .heroHeadline{
     text-align: center;
@@ -59,11 +64,20 @@ $lightGray:#9FA2A7;
 }
 
 .heroTextContainer{
+    width: 95vw;
+    margin:auto;
 
-}
+    .heroText{
+        margin-bottom: 1.5rem;
+    }
+    .heroTextPrice{
+        text-align: center;
+        margin-bottom: 1rem;
 
-
-.logo{
-    padding-right:3rem ;
-    width: 15rem;
+    }
+    .priceDescription{
+        text-align: center;
+        width: 5rem;
+        margin:auto;
+    }
 }
